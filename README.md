@@ -1,18 +1,19 @@
-The project is at
+## The project is at
 
-https://github.com/PauloRaff/VoteCounter
+**https://github.com/PauloRaff/VoteCounter**
 
 but you probably know that already :-)
 
-Things we need to research
-Google authentication
+## Things we need to research
+* Google authentication - [quickstart](https://developers.google.com/sheets/quickstart/ios?ver=swift)
+* [Interactive Google sheets api documentation](https://developers.google.com/apis-explorer/#p/sheets/v4/)
 
 https://developers.google.com/sheets/quickstart/ios?ver=swift
 
-Required features
-One vote per person per ballot - multiple voting disallowed.
-Vote should be persisted on device (user would need to delete app and reinstall in order to cheat).
-User can change their vote at any time, so any preexisting vote is undone and the new vote registered.
+## Required features
+* One vote per person per ballot - multiple voting disallowed.
+* Vote should be persisted on device (user would need to delete app and reinstall in order to cheat).
+* User can change their vote at any time, so any preexisting vote is undone and the new vote registered.
 
 Two screens:
 - a first screen with a list of the ballots
